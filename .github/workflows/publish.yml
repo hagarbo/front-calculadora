@@ -40,7 +40,6 @@ jobs:
    #JOB2: Build and push image to DockerHub
   build-and-push-to-dockerhub:
     runs-on: ubuntu-latest
-
     permissions:
       packages: write
       contents: read
